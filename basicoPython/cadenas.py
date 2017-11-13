@@ -1,3 +1,4 @@
+#encoding: utf-8
 
 #Formas de escribir cadenas
 cadena = ' Texto entre \n comillas simples'
@@ -15,3 +16,6 @@ cad = "Cadena" * 3
 cad2 = "Final"
 print cad + cad2
 
+#Para puder usar caracteres raros hay que poner la codificacion al principio de esta forma: #encoding: utf-8
+
+print "El niño que saltó"
